@@ -1,11 +1,22 @@
-<div align="center">
+# AvantTek Project
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This is the complete source code for the AvantTek application.
 
-  <h1>Built with AI Studio</h2>
+## Prerequisites
+- Node.js 18+ installed
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Quick Start
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open your browser at `http://localhost:3000` (or the URL displayed in the console).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Build for Production
+```bash
+npm run build
+```

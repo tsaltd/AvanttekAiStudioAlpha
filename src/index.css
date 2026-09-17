@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --coral: #E4503A;
+    --coral-deep: #C93D28;
+    --amber: #F5B400;
+    --sky: #3B9BE8;
+    --violet: #7C5CE6;
+    --ink: #1F2328;
+    --ink-soft: #5B6470;
+    --canvas: #FFFFFF;
+    --surface: #FAF7F4;
+    --line: #E9E3DD;
+  }
+
+  html {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #1F2328;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #1F2328;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid #E4503A;
+    outline-offset: 3px;
+  }
+}
+
+.shadow-warm-card {
+  box-shadow: 0 12px 32px -8px rgba(228, 80, 58, 0.07), 0 4px 16px -2px rgba(31, 35, 40, 0.04);
+}
+
+.shadow-warm-hover {
+  box-shadow: 0 18px 40px -8px rgba(228, 80, 58, 0.12), 0 8px 24px -4px rgba(31, 35, 40, 0.06);
+}
+
